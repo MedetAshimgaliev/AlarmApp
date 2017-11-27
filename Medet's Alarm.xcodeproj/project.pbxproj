@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5856A8A1FCC85F400AEF5C2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5856A891FCC85F400AEF5C2 /* TableViewController.swift */; };
+		E5856A8C1FCC87C000AEF5C2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5856A8B1FCC87C000AEF5C2 /* CustomCell.swift */; };
 		E5B2DD561FC7438A00E43D0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B2DD551FC7438A00E43D0F /* AppDelegate.swift */; };
 		E5B2DD581FC7438A00E43D0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B2DD571FC7438A00E43D0F /* ViewController.swift */; };
 		E5B2DD5B1FC7438B00E43D0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B2DD591FC7438A00E43D0F /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		E5B2DD601FC7438B00E43D0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B2DD5E1FC7438B00E43D0F /* LaunchScreen.storyboard */; };
 		E5B2DD6B1FC7438B00E43D0F /* Medet_s_AlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B2DD6A1FC7438B00E43D0F /* Medet_s_AlarmTests.swift */; };
 		E5B2DD761FC7438B00E43D0F /* Medet_s_AlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B2DD751FC7438B00E43D0F /* Medet_s_AlarmUITests.swift */; };
+		E5B2DD861FC7528E00E43D0F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B2DD851FC7528E00E43D0F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5856A891FCC85F400AEF5C2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E5856A8B1FCC87C000AEF5C2 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		E5B2DD521FC7438A00E43D0F /* Medet's Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medet's Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B2DD551FC7438A00E43D0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5B2DD571FC7438A00E43D0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		E5B2DD711FC7438B00E43D0F /* Medet's AlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medet's AlarmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B2DD751FC7438B00E43D0F /* Medet_s_AlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medet_s_AlarmUITests.swift; sourceTree = "<group>"; };
 		E5B2DD771FC7438B00E43D0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B2DD851FC7528E00E43D0F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				E5B2DD551FC7438A00E43D0F /* AppDelegate.swift */,
+				E5856A891FCC85F400AEF5C2 /* TableViewController.swift */,
 				E5B2DD571FC7438A00E43D0F /* ViewController.swift */,
 				E5B2DD591FC7438A00E43D0F /* Main.storyboard */,
+				E5B2DD851FC7528E00E43D0F /* SecondViewController.swift */,
 				E5B2DD5C1FC7438B00E43D0F /* Assets.xcassets */,
 				E5B2DD5E1FC7438B00E43D0F /* LaunchScreen.storyboard */,
 				E5B2DD611FC7438B00E43D0F /* Info.plist */,
+				E5856A8B1FCC87C000AEF5C2 /* CustomCell.swift */,
 			);
 			path = "Medet's Alarm";
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B2DD861FC7528E00E43D0F /* SecondViewController.swift in Sources */,
 				E5B2DD581FC7438A00E43D0F /* ViewController.swift in Sources */,
+				E5856A8C1FCC87C000AEF5C2 /* CustomCell.swift in Sources */,
 				E5B2DD561FC7438A00E43D0F /* AppDelegate.swift in Sources */,
+				E5856A8A1FCC85F400AEF5C2 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
