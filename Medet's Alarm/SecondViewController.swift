@@ -23,8 +23,8 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
        
         dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "YYYY-MM-dd 'T' hh:mm"
-        
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm"
+
         
         
         // Do any additional setup after loading the view.
@@ -41,6 +41,8 @@ class SecondViewController: UIViewController {
         show_date_lbl.text = time
         times.append(time)
     }
+    
+    
 
     /*
     // MARK: - Navigation
